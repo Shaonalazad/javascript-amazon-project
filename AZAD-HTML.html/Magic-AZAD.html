@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .d-1 {
+      height: 500px;
+      width: 500px;
+      border-width: 25px;
+      border-bottom-color: rgb(221, 234, 238);
+      background-color: rgb(233, 3, 3);
+      border-radius: 250px;
+      color: white;
+      font-size: 100px;
+      border-top-color: blue;
+      border-right-color: rgb(33, 238, 33);
+      animation: ani 0.1s linear infinite;
+      margin-left: 20px;
+      
+    }
+      @keyframes ani {
+        to {
+          transform: rotate(360deg);
+        }
+      } 
+    
+      .d-2 {
+
+        height: 300px;
+        width: 300px;
+        background-color: black;
+        border-radius: 150px;
+
+      }
+  </style>
+</head>
+<body>
+  <div>
+    <button class="d-1">SHAON
+      <button class="d-2"></button>
+    </button>
+  </div>
+  <div class="d-2"></div>
+  <div class="d-3"></div>
+  
+</body>
+</html>
